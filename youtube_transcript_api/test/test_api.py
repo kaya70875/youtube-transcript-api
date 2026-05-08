@@ -72,7 +72,7 @@ class TestYouTubeTranscriptApi(TestCase):
             language_code="en",
             is_generated=False,
             video_id="GJLlxj_dtq8",
-            title="Surface Go Review - It’s Awesome"
+            title="Surface Go Review - It’s Awesome",
         )
         self.ref_transcript_raw = self.ref_transcript.to_raw_data()
 
@@ -114,7 +114,7 @@ class TestYouTubeTranscriptApi(TestCase):
             responses.POST,
             "https://www.youtube.com/youtubei/v1/player",
             body=load_asset("youtube_altered_user_agent.innertube.json.static"),
-            content_type="application/json"
+            content_type="application/json",
         )
 
         transcript = YouTubeTranscriptApi().fetch("GJLlxj_dtq8")

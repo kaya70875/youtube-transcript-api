@@ -178,7 +178,7 @@ class Transcript:
             self._translation_languages_dict[language_code],
             language_code,
             True,
-            []
+            [],
         )
 
 
@@ -358,12 +358,7 @@ class TranscriptListFetcher:
 
     def fetch(self, video_id: str) -> TranscriptList:
         captions_json, title = self._fetch_video_data(video_id)
-        return TranscriptList.build(
-            self._http_client,
-            video_id,
-            captions_json,
-            title
-        )
+        return TranscriptList.build(self._http_client, video_id, captions_json, title)
 
     def _fetch_video_data(self, video_id: str, try_number: int = 0) -> tuple[Dict, str]:
         try:
