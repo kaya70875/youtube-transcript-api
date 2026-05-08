@@ -6,7 +6,7 @@
   <a href="https://github.com/sponsors/jdepoix">
     <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="Sponsor">
   </a>
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BAENLEW8VUJ6G&source=url">
+  <a href="https://www.paypal.com/donate/?hosted_button_id=9W5ZHV22FD63G">
     <img src="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="Donate">
   </a>
   <a href="https://github.com/jdepoix/youtube-transcript-api/actions">
@@ -27,36 +27,58 @@
 </p>
 
 <p align="center">
-  <b>This is a python API which allows you to retrieve the transcript/subtitles for a given YouTube video. It also works for automatically generated subtitles, supports translating subtitles and it does not require a headless browser, like other selenium based solutions do!</b>
+  This is a python API which allows you to retrieve the transcript/subtitles for a given YouTube video. It also works for automatically generated subtitles, supports translating subtitles and it does not require a headless browser, like other selenium based solutions do!
 </p>
+
+<br />
+
 <p align="center">
- Maintenance of this project is made possible by all the <a href="https://github.com/jdepoix/youtube-transcript-api/graphs/contributors">contributors</a> and <a href="https://github.com/sponsors/jdepoix">sponsors</a>. If you'd like to sponsor this project and have your avatar or company logo appear below <a href="https://github.com/sponsors/jdepoix">click here</a>. 💖
+ <b>If you feel more comfortable using a hosted solution, you can use the services of any of our amazing sponsors:</b>
 </p>
 
 <p align="center">
-  <a href="https://www.searchapi.io">
+  <a href="https://serpapi.com/youtube-video-transcript">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://www.searchapi.io/press/v1/svg/searchapi_logo_white_h.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://www.searchapi.io/press/v1/svg/searchapi_logo_black_h.svg">
-      <img alt="SearchAPI" src="https://www.searchapi.io/press/v1/svg/searchapi_logo_black_h.svg" height="40px" style="vertical-align: middle;">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/87d28ff2-c478-4fbf-b27e-9bced1271603">
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/43f6fa61-9ee4-442b-9e11-6d2b6d3116ee">
+      <img alt="SerpApi" src="https://github.com/user-attachments/assets/43f6fa61-9ee4-442b-9e11-6d2b6d3116ee" height="100px" style="vertical-align: middle;">
     </picture>
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://supadata.ai">
+</p>
+
+<p align="center">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://transcriptapi.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://anacreon.ai/downloads/transcriptapi-logo-color.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://anacreon.ai/downloads/transcriptapi-logo-black.svg">
+      <img alt="TranscriptAPI.com" src="https://anacreon.ai/downloads/transcriptapi-logo-black.svg" height="50px" style="vertical-align: middle;">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://supadata.ai/youtube-transcript-api?ref=ytt-api">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://supadata.ai/logo-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://supadata.ai/logo-light.svg">
-      <img alt="supadata" src="https://supadata.ai/logo-light.svg" height="40px">
+      <img alt="supadata" src="https://supadata.ai/logo-light.svg" height="25px">
     </picture>
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.dumplingai.com">
+  &nbsp;&nbsp;
+  <a href="https://www.dumplingai.com/endpoints/get-youtube-transcript?via=ytt-api">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://www.dumplingai.com/logos/logo-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://www.dumplingai.com/logos/logo-light.svg">
-      <img alt="Dumpling AI" src="https://www.dumplingai.com/logos/logo-light.svg" height="40px" style="vertical-align: middle;">
+      <img alt="Dumpling AI" src="https://www.dumplingai.com/logos/logo-light.svg" height="25px" style="vertical-align: middle;">
     </picture>
   </a>
+</p>
+
+<br />
+
+<p align="center">
+  Maintenance of this project is made possible by all the <a href="https://github.com/jdepoix/youtube-transcript-api/graphs/contributors">contributors</a> and <a href="https://github.com/sponsors/jdepoix">sponsors</a>. If you'd like to sponsor this project and have your avatar or company logo appear above <a href="https://github.com/sponsors/jdepoix">click here</a>. 💖
 </p>
 
 ## Install
