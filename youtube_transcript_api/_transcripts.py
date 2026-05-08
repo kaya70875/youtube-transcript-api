@@ -3,7 +3,7 @@ from enum import Enum
 from itertools import chain
 
 from html import unescape
-from typing import List, Dict, Iterator, Iterable, Pattern, Optional
+from typing import List, Dict, Iterator, Iterable, Pattern, Optional, Tuple
 
 from defusedxml import ElementTree
 
@@ -360,7 +360,7 @@ class TranscriptListFetcher:
         captions_json, title = self._fetch_video_data(video_id)
         return TranscriptList.build(self._http_client, video_id, captions_json, title)
 
-    def _fetch_video_data(self, video_id: str, try_number: int = 0) -> tuple[Dict, str]:
+    def _fetch_video_data(self, video_id: str, try_number: int = 0) -> Tuple[Dict, str]:
         try:
             html = self._fetch_video_html(video_id)
             api_key = self._extract_innertube_api_key(html, video_id)
